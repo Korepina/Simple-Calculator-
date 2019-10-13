@@ -1,0 +1,102 @@
+body {
+	background-color: #ffffff;
+}
+
+.heading {
+	text-align: center;
+	font-size: 30px;
+}
+
+.calculator {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
+
+.calculator-body {
+	box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+.scr {
+	background-color: #f1f1f1;
+	text-align: right;
+	color: #1C191C;
+	height: 80px;
+	width: 310px;
+	border-style: none;
+	font-size: 40px;
+	font-family: "Courier New", monospace;
+	font-weight: 100;
+	padding-right: 10px;
+}
+
+.operators {
+	display: flex;
+	flex-direction: row;
+}
+
+.panel {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.leftPanel {
+	display: flex;
+	flex-direction: column;
+}
+
+.rightPanel {
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+}
+
+.numbers {
+	display: flex;
+	flex-direction: row;
+}
+
+.opr {
+	background-color: #F8831A;
+	border-top: 1px solid #1C191C !important;
+	width: 80px;
+	height: 80px;
+	color: white;
+}
+
+.signs {
+	border-right: 1px solid #1C191C !important;
+}
+
+
+.btn-number {
+	width: 80px;
+	height: 80px;
+	background-color: #C9C8CC;
+	border-top: 1px solid #1C191C !important;
+	color: #1C191C;
+}
+
+.equality {
+	width: 80px;
+	height: 80px;
+	background-color: #342E34;
+	flex-basis: 100%;
+	color: white;
+}
+
+.btn:hover {
+	box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.25);
+}
+
+.btn {
+	border-style: none;
+	font-family: "Courier New", monospace;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+
